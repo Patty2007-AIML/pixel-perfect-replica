@@ -173,8 +173,9 @@
 @utility menu-link {
   display: inline-flex;
   align-items: center;
-  padding: 16px 12px;
+  padding: 16px 10px;
   white-space: nowrap;
+  flex-shrink: 0;
   font-size: 14px;
   font-weight: 600;
   color: var(--nav-foreground);

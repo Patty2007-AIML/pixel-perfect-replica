@@ -27,7 +27,7 @@ function DesktopSubList({ items }: { items: NavItem[] }) {
 function DesktopEntry({ entry }: { entry: NavEntry }) {
   const hasPanel = entry.type === "dropdown" || entry.type === "megamenu";
   return (
-    <li className="group relative">
+    <li className="group relative shrink-0">
       <a href={entry.href ?? "#"} className="menu-link">
         {entry.label}
         {hasPanel ? <ChevronDown className="ml-1 h-3.5 w-3.5" /> : null}
