@@ -67,26 +67,31 @@
 }
 
 :root {
-  --radius: 0.625rem;
+  --radius: 0.25rem;
+  /* Institutional palette extracted from mhssce.ac.in */
   --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --foreground: oklch(0.32 0 0); /* body copy #444 */
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.32 0 0);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.32 0 0);
+  --primary: oklch(0.4783 0.1121 158.5); /* green #137a4b */
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.4783 0.1121 158.5); /* top bar green */
+  --secondary-foreground: oklch(1 0 0);
+  --nav: oklch(0.3086 0.0629 265.4); /* navy #1c345a */
+  --nav-foreground: oklch(1 0 0);
+  --quote-strip: oklch(0.9161 0.0341 232.6); /* light blue #cae7f9 */
   --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --muted-foreground: oklch(0.55 0 0);
+  --accent: oklch(0.96 0 0);
+  --accent-foreground: oklch(0.32 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
+  --border: oklch(0.9 0 0);
+  --input: oklch(0.9 0 0);
   --ring: oklch(0.704 0.04 256.788);
+
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
